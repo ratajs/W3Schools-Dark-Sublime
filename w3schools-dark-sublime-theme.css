@@ -1,0 +1,88 @@
+@-moz-document url-prefix("http://www.w3schools.com/") {
+/**
+ * W3Schools Sublime Theme (11/06/2016)
+ * License: https://creativecommons.org/licenses/by-sa/4.0/
+ */
+
+ /* 'w3schools' */
+ body > div.w3-container.top > a {
+ 	color: #F8F8F2 !important;
+ }
+ /* '.com' */
+ body > div.w3-container.top > a > span {
+ 	color: #A6E22E;
+ }
+
+ /* Site bg + inner tables */
+ body > div.w3-container.top,
+ .w3-white, .w3-code.notranslate,
+ .w3-code.w3-border.notranslate,
+ .w3-row, th {
+ 	background-color: #36372f !important;
+ }
+ td {
+ 	background-color: #36372f;
+ }
+
+ /* Left sidebar bg + outer tables */
+ .w3-light-grey, .w3-example,
+ .w3-sidenav, .w3-container.w3-padding-large {
+ 	background-color: #272822 !important;
+ }
+ #leftmenuinnerinner > a:hover {
+ 	color: #F8F8F2 !important;
+ 	background-color: #1b1c17;
+ }
+ #leftmenuinnerinner > a.active {
+ 	color: #F8F8F2 !important;
+ 	background-color: #1b1c17;
+ }
+
+ /* Navbar bg */
+ #topnav > div:nth-child(1),
+ .w3-topnav {
+ 	background-color: #1b1c17 !important;
+ }
+ /* Navbar hover bg */
+ #topnav > div:nth-child(1) > div > a.active,
+ .topnavlinks > a:hover {
+ 	background-color: black;
+ }
+
+ /* Site text + in tables */
+ p, td, th, li, [id*="color"],
+ #main > div > a,
+ body > div.w3-container.top > div,
+ #main > div > div > span,
+ .w3-code.notranslate,
+ #main > div > span:nth-child(1) {
+ 	color: #F8F8F2 !important;
+ }
+ /* Headings (beige) */
+ span, h1, h2, h3, h4, h5, h6,
+ #sidemenu > h2 {
+ 	color: #E6DB74;
+ }
+ /* Table text */
+ td, #main > div.w3-example > p {
+ 	color: #F8F8F2;
+ }
+
+ /* Links */
+ a { color: #66D9EF !important; }
+ a:visited { color: #139db9 !important; }
+ a:hover { color: #A6E22E !important; }
+
+ /* Table links (dark blue) */
+ #main > table > tbody > tr > td > a {
+ 	color: #16b1d0 !important;
+ }
+ /* Table links (dark blue) */
+ #main > table > tbody > tr > td > a:visited {
+ 	color: #1189a2 !important;
+ }
+ 
+ #leftmenuinnerinner > a {
+ 	color: red;
+}
+}
