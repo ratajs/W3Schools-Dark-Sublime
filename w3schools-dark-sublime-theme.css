@@ -17,7 +17,7 @@
  body > div.w3-container.top,
  .w3-white, .w3-code.notranslate,
  .w3-code.w3-border.notranslate,
- .w3-row, th {
+ .w3-row, th, #entercolor {
  	background-color: #36372f !important;
  }
  td {
@@ -84,5 +84,5 @@
  
  #leftmenuinnerinner > a {
  	color: red;
-}
+ }
 }
