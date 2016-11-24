@@ -1,5 +1,5 @@
-# w3schools.com-dark-sublime-theme
-A W3Schools dark sublime theme.
+# W3Schools Dark Sublime
+A W3Schools dark theme, with a hint of Sublime.
 
 Available here:
-- https://userstyles.org/styles/128883/w3schools-sublime
+- https://userstyles.org/styles/128883/w3schools-dark-sublime
