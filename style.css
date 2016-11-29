@@ -1,6 +1,6 @@
 @-moz-document url-prefix("http://www.w3schools.com/") {
 /**
- * W3Schools Sublime Theme (11/06/2016)
+ * W3Schools Sublime Theme v1.1.0 by LeoTM
  * License: https://creativecommons.org/licenses/by-sa/4.0/
  */
 
@@ -84,5 +84,29 @@
  
  #leftmenuinnerinner > a {
  	color: red;
+ }
+
+ /* Editor  */
+ div#tryitLeaderboard,
+ div#container > div#textareacontainer,
+ div.CodeMirror.cm-s-default.CodeMirror-wrap,
+ div#iframecontainer > div#iframe,
+ iframe#iframeResult {
+ 	background-color: #36372f !important;
+ }
+ span.cm-tag {
+ 	color:  #d55d5d !important;
+ }
+ span.cm-tag.cm-bracket {
+ 	color:  #4CAF50 !important;
+ }
+ span.cm-string {
+ 	color: #9999ff !important;
+ }
+ span.cm-variable, span.cm-def {
+ 	color: #a6a6a6 !important;
+ }
+ span.cm-property {
+ 	color:  #ff6666 !important;
  }
 }
