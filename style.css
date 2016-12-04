@@ -1,6 +1,6 @@
 @-moz-document url-prefix("http://www.w3schools.com/") {
 /**
- * W3Schools Sublime Theme v1.1.0 by LeoTM
+ * W3Schools Sublime Theme v1.2.0 by LeoTM
  * License: https://creativecommons.org/licenses/by-sa/4.0/
  */
 
@@ -49,13 +49,17 @@
  	background-color: black;
  }
 
- /* Site text + in tables */
- p, td, th, li, [id*="color"],
- #main > div > a,
+ /* Site text + in tables + buttons */
+ div#main > p, td, th, li, [id*="color"],
+ #main > div > a.w3-btn,
+ a.w3-btn.w3-theme.w3-margin-0,
+ div#topnav > div > ul.w3-navbar.w3-left > li > a.active,
  body > div.w3-container.top > div,
  #main > div > div > span,
  .w3-code.notranslate,
- #main > div > span:nth-child(1) {
+ a.w3-btn.w3-light-grey.w3-hide-small.w3-hide-medium.w3-left.w3-padding,
+ #main > div > span:nth-child(1),
+ .w3-text-dark-grey, .w3-hover-text-dark-grey:hover, .w3-text-dark-gray, .w3-hover-text-dark-gray:hover,.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
  	color: #F8F8F2 !important;
  }
  /* Headings (beige) */
@@ -67,11 +71,19 @@
  td, #main > div.w3-example > p {
  	color: #F8F8F2;
  }
+ /* Prevus + Next btns */
+ #main > div > a.w3-btn {
+ 	background: #4CAF50;
+ 	border: none;
+ }
 
  /* Links */
  a { color: #66D9EF !important; }
  a:visited { color: #139db9 !important; }
  a:hover { color: #A6E22E !important; }
+ body > ul.w3-navbar.w3-theme.w3-card-2.w3-wide > li > a.w3-hover-white.w3-padding-16 {
+ 	color: #fff !important;
+ }
 
  /* Table links (dark blue) */
  #main > table > tbody > tr > td > a {
