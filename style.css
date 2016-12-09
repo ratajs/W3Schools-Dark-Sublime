@@ -1,6 +1,6 @@
 @-moz-document url-prefix("http://www.w3schools.com/") {
 /**
- * W3Schools Sublime Theme v1.2.1 by LeoTM
+ * W3Schools Sublime Theme v1.2.2 by LeoTM
  * License: https://creativecommons.org/licenses/by-sa/4.0/
  */
 
@@ -13,7 +13,7 @@
  	color: #A6E22E;
  }
  @media (min-width: 993px) {
- 	.w3-white, .w3-hover-white:hover {
+ 	div.w3-right {
  		color: #F8F8F2 !important;
  	}
  }
