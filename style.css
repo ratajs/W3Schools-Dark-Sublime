@@ -79,7 +79,7 @@
  }
 
  /* Links */
- a:not(.w3-theme):not(.w3-dark-grey):not(.w3-hover-white):not(.w3-green):not(.w3schools-logo) { color: #66D9EF !important; }
+ a:not(.w3-theme):not(.w3-dark-grey):not(.w3-hover-white):not(.w3-green):not(.w3schools-logo):not(:hover) { color: #66D9EF !important; }
  /*
  a:visited { color: #139db9 !important; }
  */
