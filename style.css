@@ -1,57 +1,64 @@
-@-moz-document url-prefix("http://www.w3schools.com/") {
-
-  /* 'w3schools' */
+ /* 'w3schools' */
  body > div.w3-container.top > a {
- 	color: #F8F8F2 !important;
+   color: #F8F8F2 !important;
  }
  /* '.com' */
  body > div.w3-container.top > a > span {
- 	color: #A6E22E;
+   color: #A6E22E;
  }
  @media (min-width: 993px) {
- 	div.w3-right {
- 		color: #F8F8F2 !important;
- 	}
+   div.w3-right {
+     color: #F8F8F2 !important;
+   }
  }
 
  /* Site bg + inner tables */
  body > div.w3-container.top,
- .w3-white, .w3-code.notranslate,
+ .w3-white,
+ .w3-code.notranslate,
  .w3-code.w3-border.notranslate,
- .w3-row, th, #entercolor {
- 	background-color: #36372f !important;
+ .w3-row,
+ th,
+ #entercolor {
+   background-color: #36372f !important;
  }
  td {
- 	background-color: #36372f;
+   background-color: #36372f;
  }
 
  /* Left sidebar bg + outer tables */
- .w3-light-grey, .w3-example,
- .w3-sidenav, .w3-container.w3-padding-large {
- 	background-color: #272822 !important;
+ .w3-light-grey,
+ .w3-example,
+ .w3-sidenav,
+ .w3-container.w3-padding-large {
+   background-color: #272822 !important;
  }
  #leftmenuinnerinner > a:hover {
- 	color: #F8F8F2 !important;
- 	background-color: #1b1c17;
+   color: #F8F8F2 !important;
+   background-color: #1b1c17;
  }
  #leftmenuinnerinner > a.active {
- 	color: #F8F8F2 !important;
- 	background-color: #1b1c17;
+   color: #F8F8F2 !important;
+   background-color: #1b1c17;
  }
 
  /* Navbar bg */
  #topnav > div:nth-child(1),
  .w3-topnav {
- 	background-color: #1b1c17 !important;
+   background-color: #1b1c17 !important;
  }
  /* Navbar hover bg */
  #topnav > div:nth-child(1) > div > a.active,
  .topnavlinks > a:hover {
- 	background-color: black;
+   background-color: black;
  }
 
  /* Site text + in tables + buttons */
- div#main > p, td, th, li, [id*="color"],
+ div#main > p,
+ td,
+ th,
+ li,
+ [id*="color"],
  #main > div > a.w3-btn,
  a.w3-btn.w3-theme.w3-margin-0,
  div#topnav > div > ul.w3-navbar.w3-left > li > a.active,
@@ -60,37 +67,55 @@
  .w3-code.notranslate,
  a.w3-btn.w3-light-grey.w3-hide-small.w3-hide-medium.w3-left.w3-padding,
  #main > div > span:nth-child(1),
- .w3-text-dark-grey, .w3-hover-text-dark-grey:hover, .w3-text-dark-gray, .w3-hover-text-dark-gray:hover,.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
- 	color: #F8F8F2 !important;
+ .w3-text-dark-grey,
+ .w3-hover-text-dark-grey:hover,
+ .w3-text-dark-gray,
+ .w3-hover-text-dark-gray:hover,
+ .w3-light-grey,
+ .w3-hover-light-grey:hover,
+ .w3-light-gray,
+ .w3-hover-light-gray:hover {
+   color: #F8F8F2 !important;
  }
  /* Headings (beige) */
- span:not(.dotcom), h1, h2, h3, h4, h5, h6,
+ span:not(.dotcom),
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
  #sidemenu > h2 {
- 	color: #E6DB74;
+   color: #E6DB74;
  }
  /* Table text */
- td, #main > div.w3-example > p {
- 	color: #F8F8F2;
+ td,
+ #main > div.w3-example > p {
+   color: #F8F8F2;
  }
  /* Prevus + Next btns */
  #main > div > a.w3-btn {
- 	background: #4CAF50;
- 	border: none;
+   background: #4CAF50;
+   border: none;
  }
 
  /* Links */
- a:not(.w3-theme):not(.w3-dark-grey):not(.w3-hover-white):not(.w3-green):not(.pagactive):not(.active):not(.w3schools-logo):not(:hover) { color: #66D9EF !important; }
+ a:not(.w3-theme):not(.w3-dark-grey):not(.w3-hover-white):not(.w3-green):not(.pagactive):not(.active):not(.w3schools-logo):not(:hover) {
+   color: #66D9EF !important;
+ }
  /*
  a:visited { color: #139db9 !important; }
  */
- a:not(.w3-theme):not(.w3-dark-grey):not(.w3-hover-white):not(.w3-green):not(.pagactive):not(.active):not(.w3schools-logo):not(.w3-button):hover { color: #A6E22E !important; }
+ :not(#leftmenuinnerinner) > * > a:not(.w3-theme):not(.w3-dark-grey):not(.w3-hover-white):not(.w3-green):not(.pagactive):not(.active):not(.w3schools-logo):not(.w3-button):hover {
+   color: #A6E22E !important;
+ }
  body > ul.w3-navbar.w3-theme.w3-card-2.w3-wide > li > a.w3-hover-white.w3-padding-16 {
- 	color: #fff !important;
+   color: #fff !important;
  }
 
  /* Table links (dark blue) */
  #main > table > tbody > tr > td > a {
- 	color: #16b1d0 !important;
+   color: #16b1d0 !important;
  }
  /* Table links (dark blue) */
  /*
@@ -98,9 +123,8 @@
  	color: #1189a2 !important;
  }
  */
- 
  #leftmenuinnerinner > a {
- 	color: red;
+   color: red;
  }
 
  /* Editor  */
@@ -109,43 +133,54 @@
  div.CodeMirror.cm-s-default.CodeMirror-wrap,
  div#iframecontainer > div#iframe,
  iframe#iframeResult {
- 	background-color: #36372f !important;
+   background-color: #36372f !important;
  }
  span.cm-tag {
- 	color:  #d55d5d !important;
+   color: #d55d5d !important;
  }
  span.cm-tag.cm-bracket {
- 	color:  #4CAF50 !important;
+   color: #4CAF50 !important;
  }
  span.cm-string {
- 	color: #9999ff !important;
+   color: #9999ff !important;
  }
- span.cm-variable, span.cm-def {
- 	color: #a6a6a6 !important;
+ span.cm-variable,
+ span.cm-def {
+   color: #a6a6a6 !important;
  }
  span.cm-property {
- 	color:  #ff6666 !important;
+   color: #ff6666 !important;
  }
- 
- 
- 
+
+
+
  a.w3-button[title*=Dark] {
-     display: none;
-     visibility: hidden;
+   display: none;
+   visibility: hidden;
  }
- .w3-theme > a, .w3-theme > .w3-right > a {
-     color: #08024d !important;
+ .w3-theme > a,
+ .w3-theme > .w3-right > a {
+   color: #08024d !important;
+ }
+ #skyscraper {
+   display: none;
+   visibility: hidden;
+ }
+ .sncmp-banner {
+   display: none;
+   visibility: hidden;
  }
  .w3schools-logo {
-     color: #f8f8f2 !important;
+   color: #f8f8f2 !important;
  }
  body > .w3-row {
-     margin-top: 0 !important;
+   margin-top: 0 !important;
  }
- .w3-hover-green:hover, .w3-btn.w3-green:hover {
-     background-color: green;
+ .w3-hover-green:hover,
+ .w3-btn.w3-green:hover {
+   background-color: green;
  }
- a.w3-button:not(.w3-hover-white):not(.w3-theme):hover, #sidenav a:not(.active):hover {
-     color: #f8f8f2;
+ a.w3-button:not(.w3-hover-white):not(.w3-theme):hover,
+ #sidenav a:not(.active):hover {
+   color: #f8f8f2;
  }
-}
